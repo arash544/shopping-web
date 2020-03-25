@@ -1,0 +1,68 @@
+{
+    "products": [
+        {
+            "Id":"1",
+            "Title": "Camera",
+            "ImagePath": "https://picsum.photos/id/250/300/200",
+            "rating": "rating",
+            "Price": 1200,
+            "checked": false
+        },
+        {   
+            "Id":"2",
+            "Title": "Watch",
+            "ImagePath": "https://picsum.photos/id/175/300/200",
+            "rating": "rating",
+            "Price": 1300,
+            "checked": false
+        },
+        {
+            "Id":"3",
+            "Title": "LapTop",
+            "ImagePath": "https://picsum.photos/id/180/300/200",
+            "rating": "rating",
+            "Price": 1100,
+            "checked": false
+        },
+        {
+            "Id":"4",
+            "Title": "Boat",
+            "ImagePath": "https://picsum.photos/id/211/300/200",
+            "rating": "rating",
+            "Price": 45100,
+            "checked": false
+        },
+        {
+            "Id":"5",
+            "Title": "Shoe",
+            "ImagePath": "https://picsum.photos/id/21/300/200",
+            "rating": "rating",
+            "Price": 750,
+            "checked": false
+        },
+        {
+            "Id":"6",
+            "Title": "Dog",
+            "ImagePath": "https://picsum.photos/id/237/300/200",
+            "rating": "rating",
+            "Price": 1100,
+            "checked": false
+        },
+        {
+            "Id":"7",
+            "Title": "Type Machine",
+            "ImagePath": "https://picsum.photos/id/486/300/200",
+            "rating": "rating",
+            "Price": 2140,
+            "checked": false
+        },
+        {
+            "Id":"8",
+            "Title": "Car",
+            "ImagePath": "https://picsum.photos/id/111/300/200",
+            "rating": "rating",
+            "Price": 1400,
+            "checked": false
+        }
+    ]
+}

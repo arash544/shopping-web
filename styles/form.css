@@ -1,0 +1,177 @@
+body{
+    position: relative;
+}
+.btn-save {
+    float: right;
+}
+.btn-save #add{
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #fff;
+}
+.btn-save #add:hover,
+.btn-save #add:active{
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #fff;
+  text-decoration: none;
+  outline: none !important;
+}
+
+.spacer {
+    margin-top: 100px;
+    
+}
+.form-style{
+    line-height: 30px;
+}
+#loader {
+    color: #000;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    font-size: 100px;
+    margin-top: 0px;
+    margin-left: -100px;  
+  }
+/* navbar */
+.nav-size {
+    background-color: #1abc9c;
+
+  }
+
+  .nav-size .icon-bar {
+    background-color: white;
+    margin-left: -200px;
+  }
+
+  .nav-size li a {
+    color: white;
+  }
+
+  .nav-size li a:hover {
+    background-color: rgb(27, 27, 27);
+  }
+
+  .nav-size ul.navbar-nav li:hover a,
+  .nav-size ul.navbar-nav li.active a {
+    background: #222;
+  }
+
+  .product-big-title-area {
+    background: url(../img/crossword.png) repeat scroll 0 0 #1ABC9C;
+    /* position:relative */
+  }
+
+.product-bit-title h2 {
+  /* font-family: raleway; */
+  font-size: 40px;
+  font-weight: 200;
+  margin: 0;
+  padding: 50px 0;
+  color: #fff;
+}
+
+  
+  /* footer */
+  .footer-top-area {
+    background-color: #333;
+    color: #999;
+  }
+
+  /* .product-widget-area .zigzag-bottom{background: #333} */
+  /* .footer-top-area .zigzag-bottom{background: #000} */
+  /* .footer-top-area {background: none repeat scroll 0 0 #333; 
+color: #999;
+padding: 35px 0 180px;} */
+
+
+  .footer-bottom-area {
+    background: #000;
+    color: #fff
+  }
+
+  .footer-about-us span {
+    color: #1abc9c;
+  }
+
+  .footer-wid-title {
+    font-family: raleway;
+    font-size: 30px;
+    font-weight: 100;
+    color: #fff
+  }
+
+  .footer-about-us h2 {
+    font-weight: 200;
+  }
+
+  .footer-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-menu ul li {
+    border-bottom: 1px dashed #555;
+    padding: 5px 0;
+  }
+
+  .footer-menu a {
+    display: block;
+    padding: 5px 0;
+    color: #999
+  }
+
+
+  .footer-social a {
+    background: none repeat scroll 0 0 #1abc9c;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding-top: 5px;
+    text-align: center;
+    width: 40px;
+    border: 1px solid #1abc9c;
+    border-radius: 50%;
+  }
+
+  .footer-social a:hover {
+    background-color: #222;
+    border-color: #666
+  }
+
+  .footer-social {
+    margin-top: 20px
+  }
+
+
+  .newsletter-form input[type="email"] {
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .newsletter-form input[type="submit"] {
+    background: none repeat scroll 0 0 #1abc9c;
+    border: medium none;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    padding: 7px 20px;
+    text-transform: uppercase;
+    border: 1px solid #1abc9c;
+  }
+
+  .newsletter-form input[type="submit"]:hover {
+    background: #222;
+    border-color: #666
+  }
+  .row-space{
+    margin-top: 150px;
+  }

@@ -1,0 +1,354 @@
+body {
+    background: #fff;
+    color: #666666;
+    font-family: 'Titillium Web', sans-serif;
+    overflow-x: hidden;
+    position: relative;
+
+  }
+
+  .header-size {
+    height: 57px;
+    background-color: rgb(245, 239, 239);
+  }
+
+  .header-left {
+    top: 15px;
+    margin-left: -105px;
+  }
+
+  .header-left li {
+    display: inline;
+    list-style-type: none;
+    margin: 4px;
+
+  }
+
+  .header-left i {
+    color: gray;
+    font-size: 10px;
+  }
+
+  .header-left i:hover {
+    color: #1abc9c;
+  }
+
+  .header-left a {
+    color: gray;
+    font-size: 10px;
+  }
+
+  .header-left a:hover {
+    color: #1abc9c;
+  }
+
+  .header-right {
+    top: 12px;
+  }
+
+  .header-right ul.list-inline {
+    margin: 0;
+    text-align: right;
+  }
+
+  .header-right ul.list-inline li a {
+    display: block;
+    color: gray;
+    font-size: 12px;
+  }
+
+  .header-right ul.list-inline li a:hover {
+    display: block;
+    color: #1abc9c;
+  }
+
+  .header-right ul.list-inline li ul a {
+    padding: 5px 15px;
+  }
+
+  .header-right ul.list-inline li ul {
+    border: none;
+    border-radius: 0;
+    left: 50%;
+    margin-left: -50px;
+    min-width: 100px;
+    text-align: center;
+  }
+
+  /* logo */
+  .logo h1 {
+    font-size: 40px;
+    margin: 30px -50px;
+    font-weight: 400;
+    margin-left: -85px;
+  }
+
+  .logo h1 a {
+    color: #999;
+  }
+
+  .logo h1 a:hover {
+    text-decoration: none;
+    opacity: .7
+  }
+
+  .logo h1 a span {
+    color: #1abc9c;
+  }
+
+  /* shopping cart */
+  .shopping-item {
+    border: 1px solid #ddd;
+    float: right;
+    font-size: 14px;
+    margin-top: 40px;
+    padding: 10px;
+    position: relative;
+    margin-right: 105px;
+    bottom: 10px;
+  }
+
+  .shopping-item a {
+    color: #666;
+  }
+
+  .shopping-item i {
+    margin-left: 15px;
+  }
+
+
+  .shopping-item:hover {
+    background: none repeat scroll 0 0 #1abc9c;
+    border-color: #1abc9c;
+  }
+
+  .shopping-item:hover a {
+    color: #fff;
+    text-decoration: none
+  }
+
+  /* navbar */
+  .nav-size {
+    background-color: #1abc9c;
+
+  }
+
+  .nav-size .icon-bar {
+    background-color: white;
+    margin-left: -200px;
+  }
+
+  .nav-size li a {
+    color: white;
+  }
+
+  .nav-size li a:hover {
+    background-color: rgb(27, 27, 27);
+  }
+
+  .nav-size ul.navbar-nav li:hover a,
+  .nav-size ul.navbar-nav li.active a {
+    background: #222;
+  }
+  .cart{
+    position: relative;
+}
+.cart-number{
+    position:absolute;
+    z-index: 12;
+    top: -12px;
+    right:-10px;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #17a78b;
+    color:#fff;
+    text-align:center;
+}
+.product-big-title-area {
+  background: url(../img/crossword.png) repeat scroll 0 0 #1ABC9C;
+  /* position:relative */
+}
+
+.product-bit-title h2 {
+/* font-family: raleway; */
+font-size: 40px;
+font-weight: 200;
+margin: 0;
+padding: 50px 0;
+color: #fff;
+}
+.ptb-5{
+    padding:2rem 0;
+
+}
+.details__container{
+    padding: 3rem;
+    background-color: #e1e1e1;
+    margin-top:4rem;
+}
+.border-bottom{
+    border-bottom: 1px solid #c4c4c4;
+}
+.button-row{
+    display: flex;
+    justify-content: space-between;
+}
+.button-row .btn-link{
+    border: 1px solid #17a78b;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #17a78b;
+}
+.button-row .btn-link:hover,
+.button-row .btn-link:active,
+.button-row .btn-link:focus{
+   color: #17a78b;
+   background-color: #fff;
+    text-decoration: none;
+    border: 1px solid #17a78b;
+}
+.detail-img{
+    border: 3px solid #17a78b;
+    border-radius: 30px;
+    box-shadow:0 7px 7px rgb(116, 114, 114);
+     
+}
+.detail-title{
+    font-size: 28px;
+    font-weight: 700;
+}
+.price-row{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.detail-price{
+  font-weight: 700;
+  color: #17a78b;
+  margin-right: 100px;
+}
+.detail-price span{
+  font-weight: 700;
+  color: #333;
+  /* margin-right: 100px; */
+}
+.detail-pre-price{
+  font-weight: 700;
+  color: #17a78b;
+  /* margin-left: 100px; */
+}
+.detail-pre-price span{
+  font-weight: 700;
+  color: #333;
+}
+.detail-details{
+    font-weight: 600;
+    color: #666;
+}
+.footer-top-area {
+  background-color: #333;
+  color: #999;
+}
+
+/* .product-widget-area .zigzag-bottom{background: #333} */
+/* .footer-top-area .zigzag-bottom{background: #000} */
+/* .footer-top-area {background: none repeat scroll 0 0 #333; 
+color: #999;
+padding: 35px 0 180px;} */
+
+
+.footer-bottom-area {
+  background: #000;
+  color: #fff
+}
+
+.footer-about-us span {
+  color: #1abc9c;
+}
+
+.footer-wid-title {
+  font-family: raleway;
+  font-size: 30px;
+  font-weight: 100;
+  color: #fff
+}
+
+.footer-about-us h2 {
+  font-weight: 200;
+}
+
+.footer-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu ul li {
+  border-bottom: 1px dashed #555;
+  padding: 5px 0;
+}
+
+.footer-menu a {
+  display: block;
+  padding: 5px 0;
+  color: #999
+}
+
+
+.footer-social a {
+  background: none repeat scroll 0 0 #1abc9c;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding-top: 5px;
+  text-align: center;
+  width: 40px;
+  border: 1px solid #1abc9c;
+  border-radius: 50%;
+}
+
+.footer-social a:hover {
+  background-color: #222;
+  border-color: #666
+}
+
+.footer-social {
+  margin-top: 20px
+}
+
+
+.newsletter-form input[type="email"] {
+  background: none repeat scroll 0 0 #fff;
+  border: medium none;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.newsletter-form input[type="submit"] {
+  background: none repeat scroll 0 0 #1abc9c;
+  border: medium none;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  padding: 7px 20px;
+  text-transform: uppercase;
+  border: 1px solid #1abc9c;
+}
+
+.newsletter-form input[type="submit"]:hover {
+  background: #222;
+  border-color: #666
+}
+.row-space{
+  margin-top: 150px;
+}
